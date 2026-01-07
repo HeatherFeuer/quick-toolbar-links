@@ -1,0 +1,230 @@
+#_quictoli_quicklinks_options,
+#_quictoli_custom_links,
+#_quictoli_custom_quicklinks_options {
+	width: 832px;
+}
+
+#_quictoli_custom_quicklinks_options {
+	margin-top: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+	#_quictoli_quicklinks_options,
+	#_quictoli_custom_links,
+	#_quictoli_custom_quicklinks_options {
+		width: 100%;
+	}
+}
+
+#_quictoli_quicklinks_options .widefat tr.quictoli-heading td,
+#_quictoli_custom_links.widefat tr.quictoli-heading td {
+	background: #ededed;
+	color: #555;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+#_quictoli_quicklinks_options .widefat thead th,
+#_quictoli_custom_links.widefat thead th {
+	background: #222;
+	color: white;
+}
+
+#_quictoli_quicklinks_options .update-plugins,
+#_quictoli_quicklinks_options .awaiting-mod {
+	display: inline-block;
+	background-color: #d54e21;
+	color: #fff;
+	font-size: 9px;
+	line-height: 17px;
+	font-weight: 600;
+	margin: 1px 0 0 2px;
+	vertical-align: top;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	z-index: 26;
+	padding: 0 6px;
+}
+
+.quictoli-menu-item .update-plugins,
+.quictoli-menu-item .awaiting-mod {
+	display: none;
+}
+
+.quictoli-has-submenu > a::after,
+.quictoli-has-submenu > .ab-empty-item::after {
+	content: ' \25BE';
+}
+
+#_quictoli_custom_links .quictoli-custom-link-edit-delete a {
+	transition: 0.2s;
+	cursor: pointer;
+}
+#_quictoli_custom_links .quictoli-custom-link-edit-delete a.quictoli_delete {
+	color: red;
+}
+
+#_quictoli_custom_links .quictoli-custom-link-edit-delete a.quictoli_delete:hover {
+	color: darkred;
+}
+
+#_quictoli_custom_links .quictoli-table-link {
+	color: grey;
+}
+
+@media screen and (min-width: 680px) {
+	#wpfooter .ecommnet-footer p.quick-toolbar {
+		width: 615px;
+	}
+}
+
+#wpfooter .ecommnet-footer {
+	margin-bottom: 22px;
+}
+
+#wpfooter .ecommnet-footer p {
+	font-size: 11px;
+	line-height: 14px;
+	margin-top: 8px;
+}
+
+#wpbody-content {
+	padding-bottom: 175px !important;
+}
+
+.quictoli-menu-item .dashicons-before:before {
+	margin-right: 3px;
+	margin-top: 5px;
+	opacity: 0.6;
+}
+
+.quictoli-menu-item:hover > a > .dashicons-before:before {
+	opacity: 1;
+	color: #45bbe6;
+}
+
+#wp-admin-bar-root-default .quictoli-menu-item a img,
+#wp-admin-bar-root-default .quictoli-menu-item div img {
+	height: 20px;
+	width: auto;
+	margin-top: 5px;
+	float: left;
+	margin-right: 7px;
+	opacity: 0.8;
+}
+
+.quictoli-menu-item:hover a > img,
+.quictoli-menu-item:hover div > img {
+	opacity: 1;
+}
+
+#_quictoli_add_to_toolbar {
+	position: fixed;
+	top: 50px;
+	right: 10px;
+}
+
+.quictoli-custom-link-resp {
+	display: none;
+}
+
+.quictoli-all-links-resp {
+	display: none;
+}
+
+.quictoli-custom-sub,
+.quictoli-all-sub {
+	color: #CCCCCC;
+}
+
+.quictoli-menu-item a:hover .quictoli-custom-sub,
+.quictoli-menu-item a:hover .quictoli-all-sub {
+	color: #45bbe6;
+}
+
+@media only screen and (max-width: 782px) {
+	.quictoli-h2 {
+		display: inline-block;
+	}
+}
+
+@media only screen and (max-width: 1024px) {
+	.quictoli-link-title {
+		display: none;
+	}
+	.quictoli-has-submenu > a::after,
+	.quictoli-has-submenu > .ab-empty-item::after {
+		display: none;
+	}
+	.quictoli-custom-link {
+		display: none;
+	}
+	.quictoli-menu-item.quictoli-custom-link-resp .dashicons-before:before,
+	.quictoli-menu-item.quictoli-all-links-resp .dashicons-before:before {
+		opacity: 0.75;
+	}
+	.quictoli-menu-item.quictoli-custom-link-resp:hover .dashicons-before:before,
+	.quictoli-menu-item.quictoli-all-links-resp:hover .dashicons-before:before {
+		opacity: 1;
+	}
+	.quictoli-custom-link-resp {
+		display: block;
+	}
+}
+
+@media only screen and (max-width: 782px) {
+	#wp-admin-bar-root-default .quictoli-menu-item {
+		display: block;
+	}
+
+	.quictoli-menu-item .wp-menu-image.dashicons-before:before,
+	.quictoli-menu-item .wp-menu-image.dashicons-before {
+		height: 30px !important;
+		width: auto !important;
+		font-size: 30px;
+		margin-top: 9px;
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+	#wp-admin-bar-root-default .quictoli-menu-item a img,
+	#wp-admin-bar-root-default .quictoli-menu-item div img {
+		height: 30px;
+		margin-top: 9px;
+		margin-left: 8px;
+		margin-right: 8px;
+	}
+	#wp-admin-bar-root-default .quictoli-menu-item.quictoli-custom-link {
+		display: none;
+	}
+	.quictoli-link-title {
+		display: none;
+	}
+	#wp-admin-bar-root-default .quictoli-menu-item.quictoli-all-links-resp {
+		display: none;
+	}
+	.quictoli-has-submenu > a::after,
+	.quictoli-has-submenu > .ab-empty-item::after {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 700px) {
+	#wp-admin-bar-root-default .quictoli-menu-item {
+		display: none;
+	}
+	#wp-admin-bar-root-default .quictoli-menu-item.quictoli-all-links-resp {
+		display: block;
+	}
+	#wp-admin-bar-root-default .quictoli-menu-item.quictoli-custom-link-resp {
+		display: none;
+	}
+}
+
+@media only screen and (max-width: 600px) {
+	#wpadminbar .ab-top-menu > .quictoli-all-links-resp {
+		position: static;
+	}
+	#wpadminbar .ab-top-menu > .quictoli-all-links-resp > .ab-sub-wrapper {
+		width: 100%;
+		left: 0;
+	}
+}

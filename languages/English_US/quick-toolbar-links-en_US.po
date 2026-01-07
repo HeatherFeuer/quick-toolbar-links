@@ -1,0 +1,180 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Quick Toolbar Links\n"
+"POT-Creation-Date: 2025-11-26 08:33-0500\n"
+"PO-Revision-Date: 2025-11-26 08:39-0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: quick-toolbar-links.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: quick-toolbar-links.php:155 quick-toolbar-links.php:156
+msgid "Quick Toolbar"
+msgstr "Quick Toolbar"
+
+#: quick-toolbar-links.php:164 quick-toolbar-links.php:448
+msgid "Custom Quick Links"
+msgstr "Custom Quick Links"
+
+#: quick-toolbar-links.php:165
+msgid "Edit Custom Links"
+msgstr "Edit Custom Links"
+
+#: quick-toolbar-links.php:323
+msgid "My Custom Links"
+msgstr "My Custom Links"
+
+#: quick-toolbar-links.php:368 quick-toolbar-links.php:442
+#: quick-toolbar-links.php:555 quick-toolbar-links.php:600
+msgid "You do not have sufficient permissions to access this page."
+msgstr "You do not have sufficient permissions to access this page."
+
+#. Plugin Name of the plugin/theme
+#: quick-toolbar-links.php:372
+msgid "Quick Toolbar Links"
+msgstr "Quick Toolbar Links"
+
+#: quick-toolbar-links.php:374
+msgid ""
+"Select which admin and plugin links you would like to add to the toolbar."
+msgstr ""
+"Select which admin and plugin links you would like to add to the toolbar."
+
+#: quick-toolbar-links.php:383
+msgid "Use"
+msgstr "Use"
+
+#: quick-toolbar-links.php:384
+msgid "Menu"
+msgstr "Menu"
+
+#: quick-toolbar-links.php:385
+msgid "Link"
+msgstr "Link"
+
+#: quick-toolbar-links.php:435 quick-toolbar-links.php:535
+msgid ""
+"This plugin is maintained by Uniquely Yours Web Services. We provide "
+"WordPress hosting, web design, and webmaster services."
+msgstr ""
+"This plugin is maintained by Uniquely Yours Web Services. We provide "
+"WordPress hosting, web design, and webmaster services."
+
+#: quick-toolbar-links.php:435 quick-toolbar-links.php:535
+msgid "Click here"
+msgstr "Click here"
+
+#: quick-toolbar-links.php:435 quick-toolbar-links.php:535
+msgid "to find out more about our services."
+msgstr "to find out more about our services."
+
+#: quick-toolbar-links.php:449
+msgid ""
+"Add your own custom links to the toolbar. Links with the same Parent ID will "
+"be grouped together."
+msgstr ""
+"Add your own custom links to the toolbar. Links with the same Parent ID will "
+"be grouped together."
+
+#: quick-toolbar-links.php:451
+msgid "Add New Link"
+msgstr "Add New Link"
+
+#: quick-toolbar-links.php:456 quick-toolbar-links.php:491
+msgid "Title"
+msgstr "Title"
+
+#: quick-toolbar-links.php:460 quick-toolbar-links.php:492
+msgid "URL"
+msgstr "URL"
+
+#: quick-toolbar-links.php:464
+msgid "Open in New Window"
+msgstr "Open in New Window"
+
+#: quick-toolbar-links.php:468
+msgid "Parent ID (Optional)"
+msgstr "Parent ID (Optional)"
+
+#: quick-toolbar-links.php:471
+msgid "Leave blank for top-level menu item"
+msgstr "Leave blank for top-level menu item"
+
+#: quick-toolbar-links.php:475
+msgid "Icon Image URL (Optional)"
+msgstr "Icon Image URL (Optional)"
+
+#: quick-toolbar-links.php:478
+msgid "Choose Image"
+msgstr "Choose Image"
+
+#: quick-toolbar-links.php:482
+msgid "Add Custom Link"
+msgstr "Add Custom Link"
+
+#: quick-toolbar-links.php:486
+msgid "Existing Custom Links"
+msgstr "Existing Custom Links"
+
+#: quick-toolbar-links.php:490
+msgid "ID"
+msgstr "ID"
+
+#: quick-toolbar-links.php:493
+msgid "Parent ID"
+msgstr "Parent ID"
+
+#: quick-toolbar-links.php:494
+msgid "Actions"
+msgstr "Actions"
+
+#: quick-toolbar-links.php:507
+msgid "Delete"
+msgstr "Delete"
+
+#: quick-toolbar-links.php:550 quick-toolbar-links.php:595
+msgid "Security check failed"
+msgstr "Security check failed"
+
+#: quick-toolbar-links.php:804
+msgid "Published"
+msgstr "Published"
+
+#: quick-toolbar-links.php:810
+msgid "Draft"
+msgstr "Draft"
+
+#: quick-toolbar-links.php:816
+msgid "Pending"
+msgstr "Pending"
+
+#: quick-toolbar-links.php:822
+msgid "Trashed"
+msgstr "Trashed"
+
+#. Plugin URI of the plugin/theme
+msgid "https://uniquelyyourshosting.com/quick-toolbar"
+msgstr "https://uniquelyyourshosting.com/quick-toolbar"
+
+#. Description of the plugin/theme
+msgid "Add frequently used menu links and custom links to the Admin Toolbar."
+msgstr "Add frequently used menu links and custom links to the Admin Toolbar."
+
+#. Author of the plugin/theme
+msgid "HeatherFeuer (Updated for Modern WordPress)"
+msgstr "HeatherFeuer (Updated for Modern WordPress)"
+
+#. Author URI of the plugin/theme
+msgid "https://uniquelyyourshosting.com"
+msgstr "https://uniquelyyourshosting.com"
